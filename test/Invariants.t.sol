@@ -8,7 +8,7 @@ import { BoundedLpHandler } from "./LpHandler.sol";
 import { IERC20 }      from "lib/erc20-helpers/src/interfaces/IERC20.sol";
 import { ISavingsDai } from "lib/sdai/src/ISavingsDai.sol";
 
-contract CounterTest is Test {
+contract InvariantTests is Test {
 
     BoundedLpHandler lpHandler;
 
